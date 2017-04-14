@@ -4,8 +4,8 @@ const bodyParser = require('body-parser')
 
 var db
 
-app.listen(3000, () => {
-  console.log('listening on 3000')
+app.listen(10010, () => {
+  console.log('listening on 10010')
 })
 
 app.set('view engine', 'ejs')
